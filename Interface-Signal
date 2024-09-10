@@ -1,0 +1,61 @@
+interface Signal {
+    double getAmplitude();
+    double getFrequency();
+}
+
+class DiscreteSignal implements Signal {
+    private double amplitude;
+    private double frequency;
+
+    public DiscreteSignal(double amplitude, double frequency) {
+        this.amplitude = amplitude;
+        this.frequency = frequency;
+    }
+
+    @Override
+    public double getAmplitude() {
+        return amplitude;
+    }
+
+    @Override
+    public double getFrequency() {
+        return frequency;
+    }
+
+    public void displayDiscreteSignalInfo() {
+        System.out.println("Discrete Signal - Amplitude: " + amplitude + ", Frequency: " + frequency);
+    }
+}
+
+class ContinuousSignal implements Signal {
+    private double amplitude;
+    private double frequency;
+
+    public ContinuousSignal(double amplitude, double frequency) {
+        this.amplitude = amplitude;
+        this.frequency = frequency;
+    }
+ @Override
+    public double getAmplitude() {
+        return amplitude;
+    }
+
+    @Override
+    public double getFrequency() {
+        return frequency;
+    }
+
+    public void displayContinuousSignalInfo() {
+        System.out.println("Continuous Signal - Amplitude: " + amplitude + ", Frequency: " + frequency);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        DiscreteSignal discreteSignal = new DiscreteSignal(5.0, 1000.0);
+        discreteSignal.displayDiscreteSignalInfo();
+
+        ContinuousSignal continuousSignal = new ContinuousSignal(2.0, 500.0);
+        continuousSignal.displayContinuousSignalInfo();
+    }
+}
