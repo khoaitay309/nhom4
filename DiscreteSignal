@@ -1,0 +1,23 @@
+class DiscreteSignal {
+    private int[] x;
+
+    public DiscreteSignal(int[] x) {
+        this.x = x;
+    }
+
+    public int calculateSignal(int n) {
+        int result = 0;
+        for (int k = 0; k < x.length; k++) {
+            result += x[k] * delta(n - k);
+        }
+        return result;
+    }
+
+    private int delta(int n) {
+        return n == 0 ? 1 : 0;
+    }
+
+    public void displaySignal(int n) {
+        System.out.println("Giá trị tín hiệu rời rạc tại n = " + n + ": " + calculateSignal(n));
+    }
+}
