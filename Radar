@@ -1,0 +1,30 @@
+class Radar {
+    public double calculateRadarSignal(int n) {
+        if (n >= 0 && n <= 15) {
+            return 1 - (n / 15.0);
+        }
+        return 0;
+    }
+
+    public void displayRadarSignal(int n) {
+        System.out.println("Giá trị tín hiệu mẫu tại n = " + n + ": " + calculateRadarSignal(n));
+    }
+
+    public void displayFullSignal() {
+        for (int i = 0; i <= 15; i++) {
+            displayRadarSignal(i);
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        int[] x = {1, 2, 3, 4};
+        DiscreteSignal discreteSignal = new DiscreteSignal(x);
+        discreteSignal.displaySignal(4);
+
+        Radar radar = new Radar();
+        radar.displayRadarSignal(4);
+        radar.displayFullSignal();
+    }
+}
