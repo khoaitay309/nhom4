@@ -19,4 +19,4 @@ Dự án này là một hệ thống quản lý thư viện, giúp tối ưu hó
 ![Sơ đồ cấu trúc](sdct.jpg)
 
 #### giao diện màn hình chính
-giaodienmhc.jpg
+![Giao diện MHC](giaodienmhc.jpg)
