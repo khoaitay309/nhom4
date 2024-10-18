@@ -15,8 +15,8 @@ Dự án này là một hệ thống quản lý thư viện, giúp tối ưu hó
 - Quản lý mượn và trả sách.
 - Kiểm tra tình trạng sách (còn hay đã mượn).
 - Lưu thông tin mượn trả sách vào file.
-
+### sơ đồ cấu trúc
 ![Sơ đồ cấu trúc](sdct.jpg)
 
-#### giao diện màn hình chính
+### giao diện màn hình chính
 ![Giao diện MHC](giaodienmhc.jpg)
