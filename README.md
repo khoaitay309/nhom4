@@ -29,10 +29,20 @@ Người dùng cũng có thể xem thông tin sách có sẵn và tình trạng 
 ### Sơ đồ cấu trúc
 
    - **Sơ đồ lớp**
+
      ![Sơ đồ cấu trúc](sdct.jpg)
   
    - **UML Sequence Diagram chức năng tìm kiếm**
+
      ![UML Sequence Diagram chức năng tìm kiếm](UML%20chucnangtimkiem.png)
 
+   - **UML Sequence Diagram chức năng mượn sách**
+
+     ![UML Sequence Diagram chức năng mượn sách](UMLmuonsach.png)
+
+   - **UML Sequence Diagram chức năng trả sách**
+
+     ![UML Sequence Diagram chức năng trả sách](UMLtrasach.png)
+     
 ### giao diện màn hình chính
 ![Giao diện MHC](giaodienchinh.png)
