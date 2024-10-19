@@ -23,12 +23,12 @@ Người dùng cũng có thể xem thông tin sách có sẵn và tình trạng 
    - Dữ liệu được lưu trữ dưới dạng các Collection tùy chọn như ArrayList, LinkedList, Map,...
 
 ### Thành Viên Nhóm
-- Nguyễn Văn Hiếu: Phát triển phần mềm.
-- Lê Mạnh Dũng: Phát triển phần mềm.
+   - Nguyễn Văn Hiếu: Phát triển phần mềm.
+   - Lê Mạnh Dũng: Phát triển phần mềm.
 
 ### Sơ đồ cấu trúc
 
-- **Sơ đồ lớp**
+  - **Sơ đồ lớp**
   ![Sơ đồ cấu trúc](sdct.jpg)
   
 
