@@ -26,7 +26,7 @@ Người dùng cũng có thể xem thông tin sách có sẵn và tình trạng 
 - Nguyễn Văn Hiếu: Phát triển phần mềm.
 - Lê Mạnh Dũng: Phát triển phần mềm.
 
-### sơ đồ cấu trúc
+## sơ đồ cấu trúc
 
    - Sơ đồ 
    ![Sơ đồ cấu trúc](sdct.jpg)
