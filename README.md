@@ -8,7 +8,7 @@ Người dùng cũng có thể xem thông tin sách có sẵn và tình trạng 
 
 ### Mục tiêu cần đạt được
 **1. Giao diện**
-   - Ứng dụng sử dụng giao diện đồ họa của javaFX.
+   - Ứng dụng sử dụng giao diện đồ họa của javaFX.<space><space>
 **2. Chức năng**
    - Chức năng đăng nhập.
    - Chức năng đăng ký.
