@@ -26,6 +26,8 @@ Người dùng cũng có thể xem thông tin sách có sẵn và tình trạng 
    - Nguyễn Văn Hiếu: Phát triển phần mềm.
    - Lê Mạnh Dũng: Phát triển phần mềm.
 
+---
+
 ### Sơ đồ cấu trúc
 
    - **Sơ đồ lớp**
@@ -43,7 +45,9 @@ Người dùng cũng có thể xem thông tin sách có sẵn và tình trạng 
    - **UML Sequence Diagram chức năng trả sách**
 
      ![UML Sequence Diagram chức năng trả sách](UMLtrasach.png)
----   
+     
+---  
+
 ### Cơ sở dữ liệu
 
    - **Mô hình quan hệ**
@@ -55,5 +59,6 @@ Người dùng cũng có thể xem thông tin sách có sẵn và tình trạng 
      ![JDBC](motaketnoisql.png)
 
 ---
-### giao diện màn hình chính
+
+### giao diện màn hình đăng nhập đăng nhập chính
 ![Giao diện MHC](giaodienchinh.png)
