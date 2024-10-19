@@ -29,4 +29,4 @@ Người dùng cũng có thể xem thông tin sách có sẵn và tình trạng 
 ![Sơ đồ cấu trúc](sdct.jpg)
 
 ### giao diện màn hình chính
-![Giao diện MHC](giaodienmhc.jpg)
+![Giao diện MHC](giaodienchinh.png)
