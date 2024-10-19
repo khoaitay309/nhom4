@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="526.0" prefWidth="937.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.quanly_thuvien.thanhvienController">
+    <top>
+        <HBox prefHeight="38.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <Label alignment="CENTER" prefHeight="47.0" prefWidth="206.0" style="-fx-background-color: #61ef61;" text="library">
+                <font>
+                    <Font name="System Bold Italic" size="26.0" />
+                </font>
+            </Label>
+            <Separator maxHeight="-Infinity" orientation="VERTICAL" prefHeight="200.0" HBox.hgrow="ALWAYS">
+                <opaqueInsets>
+                    <Insets bottom="5.0" top="5.0" />
+                </opaqueInsets>
+                <HBox.margin>
+                    <Insets bottom="5.0" top="5.0" />
+                </HBox.margin>
+            </Separator>
+            <AnchorPane prefHeight="54.0" prefWidth="726.0">
+                <children>
+                    <Button fx:id="timkiemsach" layoutX="256.0" layoutY="6.0" mnemonicParsing="false" onAction="#timKiemSach" prefHeight="26.0" prefWidth="84.0" text="tìm kiếm" textFill="#2dbc2d" />
+                    <TextField fx:id="timkiemtensach" layoutX="77.0" layoutY="6.0" prefHeight="26.0" prefWidth="178.0" promptText="nhập tên sách" />
+                    <Button fx:id="capnhat" layoutX="380.0" layoutY="6.0" mnemonicParsing="false" onAction="#capnhatlaidulieu" prefHeight="22.0" prefWidth="81.0" text="Làm mới" textFill="#459e2c" />
+               <Separator layoutX="488.0" layoutY="1.0" orientation="VERTICAL" prefHeight="33.0" prefWidth="2.0" />
+               <ImageView fitHeight="29.0" fitWidth="30.0" layoutX="682.0" layoutY="9.0" onDragDetected="#tv_dangxuatController" onDragDone="#tv_dangxuatController" onDragDropped="#tv_dangxuatController" onDragEntered="#tv_dangxuatController" onDragExited="#tv_dangxuatController" onDragOver="#tv_dangxuatController" onMouseDragEntered="#tv_dangxuatController" onMouseDragExited="#tv_dangxuatController" onMouseDragOver="#tv_dangxuatController" onMouseDragReleased="#tv_dangxuatController" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../file/avatar.jpg" />
+                  </image>
+               </ImageView>
+               <Label fx:id="tennguoidung" alignment="CENTER_RIGHT" layoutX="597.0" layoutY="8.0" prefHeight="18.0" prefWidth="78.0" textAlignment="CENTER" />
+               <Label fx:id="manguoidung" alignment="CENTER_RIGHT" layoutX="543.0" layoutY="25.0" prefHeight="18.0" prefWidth="132.0" textAlignment="CENTER" />
+                </children>
+            </AnchorPane>
+        </HBox>
+    </top>
+    <center>
+        <TableView fx:id="Sachlist" onSort="#xulinhanhmuonsach" prefHeight="473.0" prefWidth="702.0" BorderPane.alignment="CENTER">
+            <columns>
+                <TableColumn fx:id="masach" prefWidth="68.79998624324799" text="Mã Sách" />
+                <TableColumn fx:id="theloai" prefWidth="92.80001068115234" text="Thể Loại" />
+                <TableColumn fx:id="tensach" prefWidth="233.6000518798828" text="Tên Sách" />
+                <TableColumn fx:id="tacgia" prefWidth="185.5999755859375" text="Tác Giả" />
+                <TableColumn fx:id="tinhtrang" prefWidth="120.0" text="Tình Trạng" />
+            </columns>
+        </TableView>
+    </center>
+    <right>
+        <VBox prefHeight="407.0" prefWidth="236.0" BorderPane.alignment="CENTER">
+            <children>
+                <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="487.0" prefWidth="236.0">
+                    <children>
+                        <Label layoutX="13.0" layoutY="169.0" text="Mã Sách">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="tv_masachText" layoutX="12.0" layoutY="195.0" prefHeight="26.0" prefWidth="212.0" promptText="mã sách" />
+                        <Button fx:id="tv_muonsach" layoutX="13.0" layoutY="250.0" mnemonicParsing="false" onAction="#muonSach" prefHeight="26.0" prefWidth="209.0" text="Mượn Sách" textFill="#0edc0e">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Button>
+                        <Label layoutX="13.0" layoutY="113.0" text="Mã Thành Viên">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="mathanhvien" layoutX="12.0" layoutY="133.0" prefHeight="26.0" prefWidth="210.0" promptText="mã thành viên" />
+                        <Label fx:id="tv_thongbao" layoutX="17.0" layoutY="342.0">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                      <Button fx:id="tv_danhsachmuonController" layoutX="13.0" layoutY="322.0" mnemonicParsing="false" onAction="#tv_danhsachmuonController" prefHeight="26.0" prefWidth="208.0" text="danh sách mượn" textFill="#30c730">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Separator layoutX="4.0" layoutY="426.0" prefHeight="6.0" prefWidth="227.0" />
+                      <Button fx:id="tv_dangxuat" layoutX="118.0" layoutY="448.0" mnemonicParsing="false" onAction="#tv_dangxuatController" prefHeight="26.0" prefWidth="107.0" text="Đăng Xuất" textFill="#30c730" />
+                  <Label layoutX="39.0" layoutY="36.0" text="CHỨC NĂNG" textFill="#30c730">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="97.0" layoutY="62.0" text="MƯỢN SÁCH" textFill="#30c730">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutX="16.0" layoutY="298.0" prefHeight="0.0" prefWidth="202.0" />
+                  <Separator layoutX="17.0" layoutY="12.0" prefWidth="200.0" />
+                  <Button layoutX="14.0" layoutY="373.0" mnemonicParsing="false" onAction="#doimatkhau" prefHeight="26.0" prefWidth="208.0" text="Đổi mật khẩu" textFill="#30c730">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                    </children>
+                </AnchorPane>
+            </children>
+        </VBox>
+    </right>
+</BorderPane>
