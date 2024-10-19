@@ -43,6 +43,17 @@ Người dùng cũng có thể xem thông tin sách có sẵn và tình trạng 
    - **UML Sequence Diagram chức năng trả sách**
 
      ![UML Sequence Diagram chức năng trả sách](UMLtrasach.png)
----     
+---   
+### Cơ sở dữ liệu
+
+   - **Mô hình quan hệ**
+     
+     ![Mô hình quan hệ](mohinhquanhe.png)
+
+   - **Sử dụng kết nối JDBC**
+
+     ![JDBC](motaketnoisql.png)
+
+---
 ### giao diện màn hình chính
 ![Giao diện MHC](giaodienchinh.png)
