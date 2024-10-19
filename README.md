@@ -28,14 +28,11 @@ Người dùng cũng có thể xem thông tin sách có sẵn và tình trạng 
 
 ### Sơ đồ cấu trúc
 
-  - **Sơ đồ lớp**
+   - **Sơ đồ lớp**
   ![Sơ đồ cấu trúc](sdct.jpg)
   
-
-## sơ đồ cấu trúc
-
-   - Sơ đồ 
-   ![Sơ đồ cấu trúc](sdct.jpg)
+   - **UML Sequence Diagram chức năng tìm kiếm**
+     ![UML Sequence Diagram chức năng tìm kiếm](UML tìm kiếm.png)
 
 ### giao diện màn hình chính
 ![Giao diện MHC](giaodienchinh.png)
