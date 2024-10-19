@@ -27,6 +27,8 @@ Người dùng cũng có thể xem thông tin sách có sẵn và tình trạng 
 - Lê Mạnh Dũng: Phát triển phần mềm.
 
 ### sơ đồ cấu trúc
+
+## Biểu đồ lớp
 ![Sơ đồ cấu trúc](sdct.jpg)
 
 ### giao diện màn hình chính
