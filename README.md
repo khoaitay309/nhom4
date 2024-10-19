@@ -43,6 +43,6 @@ Người dùng cũng có thể xem thông tin sách có sẵn và tình trạng 
    - **UML Sequence Diagram chức năng trả sách**
 
      ![UML Sequence Diagram chức năng trả sách](UMLtrasach.png)
-     
+---     
 ### giao diện màn hình chính
 ![Giao diện MHC](giaodienchinh.png)
