@@ -8,16 +8,19 @@ Người dùng cũng có thể xem thông tin sách có sẵn và tình trạng 
 
 ### Mục tiêu cần đạt được
 **1. Giao diện**
-   - Ứng dụng sử dụng giao diện đồ họa của javaFX.  
+   - Ứng dụng sử dụng giao diện đồ họa của JavaFX.  
+
 **2. Chức năng**
-   - Chức năng đăng nhập.
-   - Chức năng đăng ký.
-   - Thêm, sửa, xoá thông tin sách.
-   - Quản lý mượn và trả sách, gia hạn .
+   - Chức năng đăng nhập.  
+   - Chức năng đăng ký.  
+   - Thêm, sửa, xoá thông tin sách.  
+   - Quản lý mượn và trả sách, gia hạn.  
    - Kiểm tra tình trạng sách (còn hay đã mượn).  
+
 **3. Dữ liệu**
-  - Sử dụng cơ sở dữ liệu để lưu trữ thông tin.
-  - dữ liệu được lưu trữ dưới dạng các Collection tùy chọn như ArrayList, LinkedList, Map,...
+   - Sử dụng cơ sở dữ liệu để lưu trữ thông tin.  
+   - Dữ liệu được lưu trữ dưới dạng các Collection tùy chọn như ArrayList, LinkedList, Map,...
+
 ### Thành Viên Nhóm
 - Nguyễn Văn Hiếu: Phát triển phần mềm.
 - Lê Mạnh Dũng: Phát triển phần mềm.
