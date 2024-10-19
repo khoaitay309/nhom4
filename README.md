@@ -5,6 +5,7 @@
 ### Giới Thiệu Dự Án
 Dự án này là một hệ thống quản lý thư viện, giúp tối ưu hóa và cải thiện hiệu quả hoạt động của các thư viện. Hệ thống cho phép người quản lý thư viện dễ dàng thêm, chỉnh sửa thông tin sách và theo dõi người mượn.
 Người dùng cũng có thể xem thông tin sách có sẵn và tình trạng mượn trả của mình.
+---
 
 ### Mục tiêu cần đạt được
 **1. Giao diện**
