@@ -32,19 +32,19 @@ Người dùng cũng có thể xem thông tin sách có sẵn và tình trạng 
 
    - **Sơ đồ lớp**
 
-     ![Sơ đồ cấu trúc](sdct.jpg)
+     ![Sơ đồ cấu trúc](./image/Class%20Diagram)
   
    - **UML Sequence Diagram chức năng tìm kiếm**
 
-     ![UML Sequence Diagram chức năng tìm kiếm](UML%20chucnangtimkiem.png)
+     ![UML Sequence Diagram chức năng tìm kiếm](./image/UML%20chucnangtimkiem.png)
 
    - **UML Sequence Diagram chức năng mượn sách**
 
-     ![UML Sequence Diagram chức năng mượn sách](UMLmuonsach.png)
+     ![UML Sequence Diagram chức năng mượn sách](./image/UMLmuonsach.png)
 
    - **UML Sequence Diagram chức năng trả sách**
 
-     ![UML Sequence Diagram chức năng trả sách](UMLtrasach.png)
+     ![UML Sequence Diagram chức năng trả sách](./image/UMLtrasach.png)
      
 ---  
 
@@ -52,13 +52,13 @@ Người dùng cũng có thể xem thông tin sách có sẵn và tình trạng 
 
    - **Mô hình quan hệ**
      
-     ![Mô hình quan hệ](mohinhquanhe.png)
+     ![Mô hình quan hệ](./image/mohinhquanhe.png)
 
    - **Sử dụng kết nối JDBC**
 
-     ![JDBC](motaketnoisql.png)
+     ![JDBC](./image/motaketnoisql.png)
 
 ---
 
 ### giao diện màn hình đăng nhập đăng nhập chính
-![giaodienchinh.png](https://github.com/khoaitay309/nhom4/blob/duan-QuanLyThuVien/h%C3%ACnh%20%E1%BA%A3nh%20%E1%BB%A9ng%20d%E1%BB%A5ng/giaodienchinhthanhvien.png)
+![giaodienchinh.png](./image/giaodienchinhthanhvien.png)
