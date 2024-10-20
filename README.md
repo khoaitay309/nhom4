@@ -32,7 +32,7 @@ Người dùng cũng có thể xem thông tin sách có sẵn và tình trạng 
 
    - **Sơ đồ lớp**
 
-     ![Sơ đồ cấu trúc](./image/Class%20Diagram)
+     ![Sơ đồ cấu trúc](./image/Class%20Diagram.png)
   
    - **UML Sequence Diagram chức năng tìm kiếm**
 
@@ -61,4 +61,4 @@ Người dùng cũng có thể xem thông tin sách có sẵn và tình trạng 
 ---
 
 ### giao diện màn hình đăng nhập đăng nhập chính
-![giaodienchinh.png](./image/giaodienchinhthanhvien.png)
+![giaodienchinh.png](./image/giaodienchinh.png)
