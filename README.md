@@ -8,4 +8,5 @@ Hệ thống cho phép người quản lý thư viện dễ dàng thêm, chỉnh
 Người dùng cũng có thể xem thông tin sách có sẵn và tình trạng mượn trả của mình.
 ---
 
+[Link demo](https://www.youtube.com/watch?v=P4wK47PdgqY&t=103s)
 **Chi tiết dự án:**  [Quản Lý thự Viện](https://github.com/khoaitay309/nhom4/tree/duan-QuanLyThuVien)
